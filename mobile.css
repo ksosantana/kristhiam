@@ -1,0 +1,48 @@
+@media(max-width: 450px) {
+ 
+    #container {
+        flex-direction: column;
+    }
+
+    #bio {
+        min-height: auto;
+        border-right: none;
+        border-bottom: 5px solid var(--bio-border-color);
+    }
+
+    #bio h2 {
+        display: none;
+    }
+
+    #bio p {
+        max-width: 60%;
+        margin: 10px auto;
+    }
+
+    #sub-container {
+        text-align: center;
+        padding: 30px;
+    }
+
+    #sub-container .descricao {
+        text-align:center;
+        max-width: 100%;
+        line-height: 26px;
+    }
+
+    #botao-projeto {
+        margin: 20px auto;
+    }
+
+    .skills-box {
+        flex: 1 1 100%;
+        max-width: 100%;
+        margin-bottom: 40px;
+        text-align: left;
+    }
+
+    .skills-box i {
+        font-size: 60px;
+    }
+
+}
