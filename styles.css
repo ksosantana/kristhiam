@@ -45,7 +45,7 @@
      padding: 50px;
  }
  
- /* minha Bio */
+ /*Minha Bio */
  #bio h2 {
      margin-bottom: 25px;
  }
@@ -98,11 +98,8 @@
  
  #email ion-icon,
  #email a {
-     flex: 1 1 0;
-    cursor: pointer;
-    text-transform: uppercase;
-    transition: 0.5s all ease-in-out;
-}
+     flex: 1 1 0;}
+    
     
 
      
@@ -111,6 +108,9 @@
      color: var(--main-text-color);
      text-decoration: none;
      max-width: 225px;
+     cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.5s all ease-in-out;
  }
  
  #email ion-icon {
