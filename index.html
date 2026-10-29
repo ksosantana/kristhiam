@@ -1,96 +1,783 @@
+
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio Kristhiam Santana</title>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&family=Roboto:ital,wght@0,300;0,700;0,900;1,300;1,700;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
+
+    <meta
+        name="description"
+        content="Portfólio profissional de Kristhiam Santana. Analista de TI, com foco em suporte técnico, redes, infraestrutura e desenvolvimento."
+    >
+
+    <meta name="author" content="Kristhiam Santana">
+
+    <title>Kristhiam Santana | Portfólio de TI</title>
+
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- Ícones de tecnologias -->
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
+    >
+
+    <!-- Biblioteca de ícones da interface -->
+    <script
+        type="module"
+        src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js">
+    </script>
+
+    <script
+        nomodule
+        src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js">
+    </script>
+
+    <!-- Estilos do projeto -->
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="mobile.css">
 </head>
+
 <body>
-    <main id="container">
-        <aside id="bio">
-            <h2>Kristhiam Santana </h2>
-            <img id="imagem-curriculo" src="./imagem/Imagem do WhatsApp de 2023-09-25 à(s) 17.16.07.jpg" alt="Kristhiam Santana">
-            <p>Olá, meu nome é <br> Kristhiam Santana <br><span class="highlight">Apaixonado por Tecnologias</span>.</p>
-            
-           <!--- <ul id="redes">
-                <li><a href="https://www.linkedin.com/in/kristhiam-santana-5454641ba/ " target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>
-                <li><a href="https://github.com/ksosantana" target="_blank"><ion-icon name="logo-github"></ion-icon></a></li>
-                <li><a href="mailto:kristhiansantana94@gmail.com" target="_blank"><ion-icon name="logo-gmail"></ion-icon></a></li>
-            </ul>-->
-            
-            
-            <ul id="redes"></ul>
-            <p id="bem-vindos">Contatos e Redes Sociais</p>
-               <li><a  href="mailto:kristhiansantana94@gmail.com"></a><ion-icon name="mail"></ion-icon></li>
-                <li><a href="https://www.linkedin.com/in/kristhiam-santana-5454641ba/ " target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>
-                <li><a href="https://github.com/ksosantana" target="_blank"><ion-icon name="logo-github"></ion-icon></a></li>
-                <li><a href="mailto:kristhiansantana94@gmail.com" target="_blank"><ion-icon name="logo-gmail"></ion-icon></a></li>
-            </ul>
-            
-        </aside>  
-        <section id="about-container">
-            <h1 id="meu-nome">Kristhiam Santana</h1>
-            <p id="titulo"><span class="destacar">Analista de TI | Suporte Técnico | Redes e Infraestrutura | Desenvolvimento</span></p>
-            <h2 id="skills-section-title">Vou contar um pouco sobre minha trajetória</h2>
-            <p class="descricao">Sou profissional da área de Tecnologia da Informação, com experiência em redes, infraestrutura e análise de sistemas, além de conhecimentos em desenvolvimento de software. Ao longo da minha trajetória, venho aprimorando minhas habilidades técnicas e adquirindo experiência na resolução de problemas e na manutenção de ambientes tecnológicos.<br>
-                <br>
-                Sou formado em
-                <span class="destacar"> <a href="https://www.wyden.com.br/graduacao/analise-e-desenvolvimento-de-sistemas">  Analise e Desenvolbimento de sistemas </a></span> na  <a href="https://www.wyden.com.br/unidades/fmf">Faculdade Martha Falcão .</a><br>e busco constantemente expandir meus conhecimentos, tanto na área de <span class="destacar">infraestrutura e suporte técnico </span>, quanto no desenvolvimento de soluções digitais.<br>
-                <br>
-                No meu<a href="https://github.com/ksosantana">GitHub</a></span>, compartilho projetos que demonstram meus conhecimentos, experiências e evolução profissional. Estou sempre aberto a novos desafios e oportunidades que me permitam aplicar minhas habilidades, aprender novas tecnologias e contribuir para o desenvolvimento de soluções eficientes.</p>
 
-                <a href="https://github.com/ksosantana?tab=repositories" id="botao-projeto"><ion-icon name="share"></ion-icon> <span>Ver Projetos</span></a>
-                
-                
-                <div id="sub-container">
-                <h2 id="skills-section-title">Tragetoria de Carreira</h2>
-                <p class="descricao">Profile</p>
-                    <div class="skills-box">
-                       <p class="skills-title">Front-end</p>
-                       <i class="devicon-html5-plain colored"></i>
-                       <i class="devicon-css3-plain colored"></i>
-                       <i class="devicon-javascript-plain colored"></i>
+    <!-- Cabeçalho mobile -->
+    <header class="mobile-header">
+        <a href="#inicio" class="mobile-logo">
+            Kristhiam Santana
+        </a>
+
+        <button
+            class="menu-toggle"
+            id="menu-toggle"
+            type="button"
+            aria-label="Abrir menu"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+        >
+            <ion-icon name="menu-outline"></ion-icon>
+        </button>
+    </header>
+
+    <!-- Menu mobile -->
+    <nav class="mobile-menu" id="mobile-menu" aria-label="Menu principal">
+        <a href="#inicio">Início</a>
+        <a href="#trajetoria">Minha trajetória</a>
+        <a href="#perfil">Meu perfil</a>
+        <a href="#qualificacoes">Qualificações</a>
+        <a href="#formacao">Formação e cursos</a>
+        <a href="#desenvolvimento">Tecnologias e projetos</a>
+        <a href="#contato">Contato</a>
+    </nav>
+
+    <div class="page-layout">
+
+        <!-- Barra lateral desktop -->
+        <aside class="sidebar">
+
+            <div class="sidebar-profile">
+
+                <img
+                    src="./imagem/"
+                    alt="Foto de perfil de Kristhiam Santana"
+                    class="profile-photo"
+                    onerror="this.style.display='none'"
+                >
+
+                <h1>Kristhiam Santana</h1>
+
+                <p class="sidebar-role">
+                    Analista de TI | Suporte Técnico | Redes e Infraestrutura | Desenvolvimento
+                </p>
+            </div>
+
+            <nav class="sidebar-navigation" aria-label="Navegação principal">
+                <a href="#inicio">
+                    <ion-icon name="home-outline"></ion-icon>
+                    <span>Início</span>
+                </a>
+
+                <a href="#trajetoria">
+                    <ion-icon name="person-outline"></ion-icon>
+                    <span>Minha trajetória</span>
+                </a>
+
+                <a href="#perfil">
+                    <ion-icon name="id-card-outline"></ion-icon>
+                    <span>Meu perfil</span>
+                </a>
+
+                <a href="#qualificacoes">
+                    <ion-icon name="briefcase-outline"></ion-icon>
+                    <span>Qualificações</span>
+                </a>
+
+                <a href="#formacao">
+                    <ion-icon name="school-outline"></ion-icon>
+                    <span>Formação e cursos</span>
+                </a>
+
+                <a href="#desenvolvimento">
+                    <ion-icon name="code-slash-outline"></ion-icon>
+                    <span>Tecnologias e projetos</span>
+                </a>
+
+                <a href="#contato">
+                    <ion-icon name="mail-outline"></ion-icon>
+                    <span>Contato</span>
+                </a>
+            </nav>
+
+            <div class="sidebar-social">
+                <a
+                    href="https://www.linkedin.com/in/kristhiam-santana-5454641ba/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="LinkedIn"
+                >
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+
+                <a
+                    href="https://github.com/ksosantana"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="GitHub"
+                >
+                    <ion-icon name="logo-github"></ion-icon>
+                </a>
+
+                <a
+                    href="mailto:kristhiansantana94@gmail.com"
+                    aria-label="Enviar e-mail"
+                >
+                    <ion-icon name="mail-outline"></ion-icon>
+                </a>
+            </div>
+
+        </aside>
+
+        <!-- Conteúdo principal -->
+        <main class="main-content" id="inicio">
+
+            <!-- Apresentação -->
+            <section class="hero-section">
+
+                <div class="hero-content">
+                    <p class="section-eyebrow">PORTFÓLIO PROFISSIONAL</p>
+
+                    <h2>
+                        Tecnologia, suporte e soluções para o dia a dia.
+                    </h2>
+
+                    <p class="hero-description">
+                        Profissional da área de Tecnologia da Informação,
+                        com formação em Análise e Desenvolvimento de Sistemas
+                        e interesse em suporte técnico, redes, infraestrutura
+                        e desenvolvimento de soluções.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a href="#qualificacoes" class="button button-primary">
+                            <ion-icon name="briefcase-outline"></ion-icon>
+                            Conheça meu perfil
+                        </a>
+
+                        <a href="#contato" class="button button-secondary">
+                            <ion-icon name="mail-outline"></ion-icon>
+                            Entre em contato
+                        </a>
                     </div>
-                    
-                    <div class="skills-box">
-                        <p class="skills-title">Back-end</p>
-                        <i class="devicon-python-plain colored"></i>
-                     </div>
-
-                     <div class="skills-box">
-                        <p class="skills-title">Databases</p>
-                        <i class="devicon-mysql-plain-wordmark"></i>
-                        <img src="https://www.sqlite.org/images/sqlite370_banner.gif" alt="SQLite" style="height:24px;">
-
-                     </div>
-
-                     <div class="skills-box">
-                        <p class="skills-title">Tools</p>
-                        <i class="devicon-windows8-plain colored"></i>
-                        <i class="devicon-linux-plain"></i>
-                        <i class="devicon-vscode-plain"></i>
-                        <i class="devicon-git-plain"></i>
-
-
-                     </div> 
-
-                     </div>
-                
-                
-
+                </div>
 
             </section>
 
-    </main>
-    <script src = "https://unpkg.com/preact@10.26.4/dist/preact.min.js" ></script>
-    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="script.js"></script>
+            <!-- Minha trajetória -->
+            <section class="content-section" id="trajetoria">
+
+                <div class="section-heading">
+                    <p class="section-eyebrow">SOBRE MIM</p>
+                    <h2>Minha trajetória</h2>
+                </div>
+
+                <div class="trajectory-content">
+                    <div class="trajectory-text" id="trajectory-text">
+
+                        <p>
+                            Sou formado em Análise e Desenvolvimento de
+                            Sistemas e estou ampliando meus conhecimentos
+                            na área de Tecnologia da Informação, com
+                            pós-graduação em Redes Estruturadas de Computadores
+                            tenho uma assist~encia technique for solucções e
+                            manutenções preventivas.
+                        </p>
+
+                        <p>
+                            Tenho interesse em diferentes áreas da TI,
+                            especialmente suporte técnico, atendimento
+                            ao usuário, resolução de problemas, redes,
+                            infraestrutura e desenvolvimento.
+                        </p>
+
+                        <p>
+                            Busco desenvolver uma visão abrangente da
+                            tecnologia, compreendendo tanto o funcionamento
+                            dos sistemas quanto a infraestrutura necessária
+                            para manter os ambientes tecnológicos operando
+                            de maneira eficiente.
+                        </p>
+
+                        <p>
+                            Meu objetivo é continuar aprendendo, aprimorar
+                            minhas habilidades técnicas e contribuir com
+                            soluções que facilitem processos, resolvam
+                            problemas e atendam às necessidades das pessoas
+                            e das organizações.
+                        </p>
+
+                    </div>
+
+                    <button
+                        type="button"
+                        class="read-more-button"
+                        id="read-more-button"
+                        aria-expanded="false"
+                        aria-controls="trajectory-text"
+                    >
+                        Ler mais
+                        <ion-icon name="chevron-down-outline"></ion-icon>
+                    </button>
+                </div>
+
+            </section>
+
+            <!-- Meu perfil -->
+            <section class="content-section" id="perfil">
+
+                <div class="section-heading">
+                    <p class="section-eyebrow">INFORMAÇÕES</p>
+                    <h2>Meu perfil</h2>
+                </div>
+
+                <div class="profile-details">
+
+                    <div class="profile-detail">
+                        <ion-icon name="person-outline"></ion-icon>
+
+                        <div>
+                            <span>Nome</span>
+                            <p>Kristhiam Santana</p>
+                        </div>
+                    </div>
+
+                    <div class="profile-detail">
+                        <ion-icon name="calendar-outline"></ion-icon>
+
+                        <div>
+                            <span>Idade</span>
+                            <p>25 anos</p>
+                        </div>
+                    </div>
+
+                    <div class="profile-detail">
+                        <ion-icon name="globe-outline"></ion-icon>
+
+                        <div>
+                            <span>Website</span>
+                            <p>
+                                <a
+                                    href="https://ksosantana.github.io/kristhiam/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    Meu portfólio
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="profile-detail">
+                        <ion-icon name="mail-outline"></ion-icon>
+
+                        <div>
+                            <span>E-mail</span>
+                            <p>
+                                <a href="mailto:kristhiansantana94@gmail.com">
+                                    kristhiansantana94@gmail.com
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <!-- Qualificações e experiências -->
+            <section class="content-section" id="qualificacoes">
+
+                <div class="section-heading">
+                    <p class="section-eyebrow">ÁREAS DE ATUAÇÃO</p>
+                    <h2>Qualificações e experiências</h2>
+
+                    <p class="section-description">
+                        Conhecimentos e interesses profissionais em diferentes
+                        áreas da Tecnologia da Informação.
+                    </p>
+                </div>
+
+                <div class="qualification-list">
+
+                    <!-- Suporte técnico -->
+                    <article class="qualification-card">
+
+                        <div class="qualification-image">
+                            <img
+                                src="./imagem/foto-suporte-tecnico.jpg"
+                                alt="Profissional trabalhando com equipamentos de informática"
+                                loading="lazy"
+                            >
+                        </div>
+
+                        <div class="qualification-content">
+                            <span class="qualification-number">01</span>
+
+                            <h3>Suporte Técnico / Help Desk</h3>
+
+                            <p>
+                                Atendimento e orientação aos usuários,
+                                identificação de problemas técnicos,
+                                diagnóstico de falhas e apoio na utilização
+                                de sistemas e equipamentos.
+                            </p>
+
+                            <ul>
+                                <li>Atendimento e suporte ao usuário</li>
+                                <li>Diagnóstico e resolução de problemas</li>
+                                <li>Configuração de sistemas e equipamentos</li>
+                                <li>Documentação e acompanhamento de solicitações</li>
+                            </ul>
+                        </div>
+
+                    </article>
+
+                    <!-- Redes e infraestrutura -->
+                    <article class="qualification-card">
+
+                        <div class="qualification-image">
+                            <img
+                                src="./imagem/foto-Redes-infra.jpg"
+                                alt="Equipamentos de rede e infraestrutura de TI"
+                                loading="lazy"
+                            >
+                        </div>
+
+                        <div class="qualification-content">
+                            <span class="qualification-number">02</span>
+
+                            <h3>Redes e Infraestrutura de Computadores</h3>
+
+                            <p>
+                                Interesse e desenvolvimento de conhecimentos
+                                voltados à conectividade, infraestrutura
+                                tecnológica e funcionamento dos ambientes
+                                computacionais.
+                            </p>
+
+                            <ul>
+                                <li>Fundamentos de redes de computadores</li>
+                                <li>Conceitos de TCP/IP e conectividade</li>
+                                <li>Sistemas operacionais Windows e Linux</li>
+                                <li>Estudos em redes estruturadas</li>
+                            </ul>
+                        </div>
+
+                    </article>
+
+                    <!-- Desenvolvimento -->
+                    <article class="qualification-card">
+
+                        <div class="qualification-image">
+                            <img
+                                src="./imagem/foto-desenvolvimento.jpg"
+                                alt="Ambiente de trabalho para desenvolvimento de software"
+                                loading="lazy"
+                            >
+                        </div>
+
+                        <div class="qualification-content">
+                            <span class="qualification-number">03</span>
+
+                            <h3>Desenvolvimento</h3>
+
+                            <p>
+                                Formação em desenvolvimento de sistemas,
+                                com utilização de tecnologias para criar
+                                interfaces, trabalhar com dados e desenvolver
+                                projetos práticos.
+                            </p>
+
+                            <ul>
+                                <li>HTML, CSS e JavaScript</li>
+                                <li>Python</li>
+                                <li>Banco de dados e SQL</li>
+                                <li>Versionamento de código com Git</li>
+                            </ul>
+
+                            <a
+                                href="https://github.com/ksosantana"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="button button-primary projects-button"
+                            >
+                                <ion-icon name="logo-github"></ion-icon>
+                                Ver projetos
+                            </a>
+                            <a
+                                href="curriculo.pdf"
+                                class="button button-secondary"
+                                download="Kristhiam-Santana-CV.pdf"
+                            >
+                                <ion-icon name="download-outline"></ion-icon>
+                                Baixar Currículo CV
+                            </a>
+                            
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </section>
+
+            <!-- Formação acadêmica -->
+            <section class="content-section" id="formacao">
+
+                <div class="section-heading">
+                    <p class="section-eyebrow">EDUCAÇÃO</p>
+                    <h2>Formação acadêmica e cursos</h2>
+                </div>
+
+                <div class="education-list">
+
+                    <article class="education-card">
+                        <div class="education-icon">
+                            <ion-icon name="school-outline"></ion-icon>
+                        </div>
+
+                        <div class="education-content">
+                            <span class="education-status">
+                                Concluído
+                            </span>
+
+                            <h3>Análise e Desenvolvimento de Sistemas</h3>
+
+                            <p>
+                                Formação superior em tecnologia, com estudos
+                                relacionados ao desenvolvimento, análise
+                                e construção de sistemas computacionais.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="education-card">
+                        <div class="education-icon">
+                            <ion-icon name="git-network-outline"></ion-icon>
+                        </div>
+
+                        <div class="education-content">
+                            <span class="education-status">
+                                Em andamento
+                            </span>
+
+                            <h3>
+                                Pós-graduação em Redes Estruturadas de Computadores
+                            </h3>
+
+                            <p>
+                                Aprofundamento de conhecimentos em redes
+                                de computadores e infraestrutura tecnológica.
+                            </p>
+                        </div>
+                    </article>
+
+                    <!-- Adicione outros cursos quando desejar -->
+                    <article class="education-card">
+                        <div class="education-icon">
+                            <ion-icon name="book-outline"></ion-icon>
+                        </div>
+
+                        <div class="education-content">
+                            <span class="education-status">
+                                Complementar
+                            </span>
+
+                            <h3>Cursos e aperfeiçoamentos</h3>
+
+                            <p>
+                                Espaço para adicionar cursos, certificações
+                                e treinamentos relacionados à Tecnologia
+                                da Informação.
+                            </p>
+                        </div>
+                    </article>
+
+                </div>
+
+            </section>
+
+            <!-- Tecnologias e projetos -->
+            <section class="content-section" id="desenvolvimento">
+
+                <div class="section-heading">
+                    <p class="section-eyebrow">CONHECIMENTOS TÉCNICOS</p>
+                    <h2>Tecnologias e ferramentas</h2>
+
+                    <p class="section-description">
+                        Tecnologias e ferramentas com as quais estudo,
+                        pratico ou desenvolvo projetos.
+                    </p>
+                </div>
+
+                <div class="technology-grid">
+
+                    <div class="technology-item">
+                        <i class="devicon-html5-plain colored"></i>
+                        <span>HTML5</span>
+                    </div>
+
+                    <div class="technology-item">
+                        <i class="devicon-css3-plain colored"></i>
+                        <span>CSS3</span>
+                    </div>
+
+                    <div class="technology-item">
+                        <i class="devicon-javascript-plain colored"></i>
+                        <span>JavaScript</span>
+                    </div>
+
+                    <div class="technology-item">
+                        <i class="devicon-python-plain colored"></i>
+                        <span>Python</span>
+                    </div>
+
+                    <div class="technology-item">
+                        <i class="devicon-mysql-plain colored"></i>
+                        <span>MySQL</span>
+                    </div>
+
+                    <div class="technology-item">
+                        <i class="devicon-windows8-original colored"></i>
+                        <span>Windows</span>
+                    </div>
+
+                    <div class="technology-item">
+                        <i class="devicon-linux-plain colored"></i>
+                        <span>Linux</span>
+                    </div>
+
+                    <div class="technology-item">
+                        <i class="devicon-vscode-plain colored"></i>
+                        <span>VS Code</span>
+                    </div>
+
+                    <div class="technology-item">
+                        <i class="devicon-git-plain colored"></i>
+                        <span>Git</span>
+                    </div>
+
+                </div>
+
+                <div class="projects-cta">
+                    <div>
+                        <h3>Conheça meus projetos</h3>
+
+                        <p>
+                            Acesse meu GitHub para visualizar repositórios,
+                            códigos e projetos desenvolvidos.
+                        </p>
+                    </div>
+
+                    <a
+                        href="https://github.com/ksosantana"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="button button-primary"
+                    >
+                        <ion-icon name="logo-github"></ion-icon>
+                        Ver projetos
+                        <ion-icon name="open-outline"></ion-icon>
+                    </a>
+                </div>
+
+            </section>
+
+            <!-- Contato -->
+            <section class="content-section" id="contato">
+
+                <div class="section-heading">
+                    <p class="section-eyebrow">VAMOS CONVERSAR</p>
+                    <h2>Contato e redes sociais</h2>
+
+                    <p class="section-description">
+                        Estou aberto a oportunidades profissionais,
+                        conexões e troca de conhecimentos na área de TI.
+                    </p>
+                </div>
+
+                <div class="contact-grid">
+
+                    <a
+                        href="mailto:kristhiansantana94@gmail.com"
+                        class="contact-card"
+                    >
+                        <ion-icon name="mail-outline"></ion-icon>
+
+                        <div>
+                            <h3>E-mail</h3>
+                            <p>Enviar uma mensagem</p>
+                        </div>
+
+                        <ion-icon name="arrow-forward-outline"></ion-icon>
+                    </a>
+
+                    <a
+                        href="https://www.linkedin.com/in/kristhiam-santana-5454641ba/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="contact-card"
+                    >
+                        <ion-icon name="logo-linkedin"></ion-icon>
+
+                        <div>
+                            <h3>LinkedIn</h3>
+                            <p>Conecte-se comigo</p>
+                        </div>
+
+                        <ion-icon name="arrow-forward-outline"></ion-icon>
+                    </a>
+
+                    <a
+                        href="https://github.com/ksosantana"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="contact-card"
+                    >
+                        <ion-icon name="logo-github"></ion-icon>
+
+                        <div>
+                            <h3>GitHub</h3>
+                            <p>Projetos</p>
+                        </div>
+
+                        <ion-icon name="arrow-forward-outline"></ion-icon>
+                    </a>
+
+                </div>
+
+            </section>
+
+            <!-- Rodapé -->
+            <footer class="site-footer">
+                <p>
+                    &copy; <span id="current-year"></span>
+                    Kristhiam Santana. Todos os direitos reservados.
+                </p>
+
+                <a href="#inicio">
+                    Voltar ao topo
+                    <ion-icon name="arrow-up-outline"></ion-icon>
+                </a>
+            </footer>
+
+        </main>
+
+    </div>
+
+    <!-- Interações do menu e do texto -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const menuToggle = document.getElementById("menu-toggle");
+            const mobileMenu = document.getElementById("mobile-menu");
+            const readMoreButton = document.getElementById("read-more-button");
+            const trajectoryText = document.getElementById("trajectory-text");
+            const currentYear = document.getElementById("current-year");
+
+            // Ano automático no rodapé
+            if (currentYear) {
+                currentYear.textContent = new Date().getFullYear();
+            }
+
+            // Abrir e fechar menu mobile
+            if (menuToggle && mobileMenu) {
+                menuToggle.addEventListener("click", function () {
+                    const isOpen =
+                        menuToggle.getAttribute("aria-expanded") === "true";
+
+                    menuToggle.setAttribute("aria-expanded", String(!isOpen));
+                    menuToggle.setAttribute(
+                        "aria-label",
+                        isOpen ? "Abrir menu" : "Fechar menu"
+                    );
+
+                    mobileMenu.classList.toggle("is-open", !isOpen);
+
+                    const menuIcon = menuToggle.querySelector("ion-icon");
+
+                    if (menuIcon) {
+                        menuIcon.setAttribute(
+                            "name",
+                            isOpen ? "menu-outline" : "close-outline"
+                        );
+                    }
+                });
+
+                // Fechar menu após selecionar uma seção
+                mobileMenu.querySelectorAll("a").forEach(function (link) {
+                    link.addEventListener("click", function () {
+                        mobileMenu.classList.remove("is-open");
+                        menuToggle.setAttribute("aria-expanded", "false");
+                        menuToggle.setAttribute("aria-label", "Abrir menu");
+
+                        const menuIcon =
+                            menuToggle.querySelector("ion-icon");
+
+                        if (menuIcon) {
+                            menuIcon.setAttribute("name", "menu-outline");
+                        }
+                    });
+                });
+            }
+
+            // Expandir ou recolher a trajetória no mobile
+            if (readMoreButton && trajectoryText) {
+                readMoreButton.addEventListener("click", function () {
+                    const isExpanded =
+                        readMoreButton.getAttribute("aria-expanded") === "true";
+
+                    readMoreButton.setAttribute(
+                        "aria-expanded",
+                        String(!isExpanded)
+                    );
+
+                    trajectoryText.classList.toggle(
+                        "is-expanded",
+                        !isExpanded
+                    );
+
+                    readMoreButton.innerHTML = isExpanded
+                        ? 'Ler mais <ion-icon name="chevron-down-outline"></ion-icon>'
+                        : 'Ler menos <ion-icon name="chevron-up-outline"></ion-icon>';
+                });
+            }
+        });
+    </script>
+
 </body>
 </html>
