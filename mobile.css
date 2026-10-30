@@ -1,5 +1,4 @@
 
-/* Tablets e celulares */
 @media (max-width: 700px) {
 
     /* Estrutura geral */
@@ -63,14 +62,19 @@
         display: none;
         flex-direction: column;
         gap: 0;
-        width: 100%;
-        padding: 8px 20px;
+        width: 69%;
+        padding: 4px 35px;
         background-color: var(--bio-bg-color);
         border-bottom: 1px solid var(--bio-border-color);
     }
 
     .mobile-menu.is-open {
         display: flex;
+        position: fixed;
+        top: 72px;
+        left: 0;
+        right: 0;
+        z-index: 1000;
     }
 
     .mobile-menu a {
@@ -218,9 +222,11 @@
     }
 
     .qualification-image {
-        width: 100%;
+        width: 50%;
         height: 210px;
         min-height: 0;
+        border-radius: 10%;
+        overflow: hidden;
     }
 
     .qualification-image img {
@@ -290,7 +296,6 @@
 
     .projects-cta {
         display: flex;
-        flex-direction: column;
         align-items: flex-start;
         gap: 18px;
     }

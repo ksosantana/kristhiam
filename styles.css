@@ -171,8 +171,12 @@ img {
     display: flex;
     align-items: center;
     min-height: 340px;
-    padding: 40px;
-    background-color: var(--bio-bg-color);
+    padding: 5%;
+    background-image: url('./imagem/fundo-telainicial-sobre..jpg');
+    background-repeat: no-repeat;     /* não repetir */
+    background-size: cover;           /* preencher a tela */
+    background-position: center;      /* centralizar */
+ 
     border: 1px solid var(--bio-border-color);
     border-radius: 6px;
 }
@@ -374,8 +378,9 @@ img {
     overflow: hidden;
     background-color: var(--bio-bg-color);
     border: 1px solid var(--bio-border-color);
-    border-radius: 5px;
+    border-radius: 28px;
 }
+
 
 .qualification-image {
     min-height: 100%;
